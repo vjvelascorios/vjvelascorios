@@ -8,7 +8,7 @@
 - As I mentioned before, you can contact me via email 📫.
 - Btw, sorry for the mistakes in english is not my mother tongue and to be honest until now I never really study the language as should be, so, be patient, please, I promise to improve. :)
 
-Next, the least cringy paraphrase that chatgpt did xd:
+Next, the less cringy paraphrase that chatgpt did xd:
 
 - I've delved into the world of economics while nurturing interests in computers, animals, and a peaceful existence.
 - Currently, I'm venturing into the realm of GNU/Linux and working on public projects that I hope will benefit others.
