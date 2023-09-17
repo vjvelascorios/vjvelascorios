@@ -13,7 +13,7 @@ with open(documento_path, 'r') as file:
     contenido = file.read()
 
 # Define el patrón de expresión regular para buscar la parte "![Random photo here](figures/tqmpatio.jpg)"
-patron = r'!\[Random photo here\]\(figures/tqmpatio.jpg\)'
+patron = r'!\[Random photo here\]\(figures/[^)]+\.(jpg|jpeg|png|gif|bmp|tiff)\)'
 
 # Buscar el patrón en el contenido
 coincidencia = re.search(patron, contenido)
