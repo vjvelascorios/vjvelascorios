@@ -7,6 +7,6 @@
 - I really like automation and visualizations, you can find out more about this on my website: [https://vjvelascorios.netlify.app/](https://vjvelascorios.netlify.app/)
 - As I mentioned before, you can contact me via email 📫.
 
-![Random photo here](imgs/yes.jpeg)
+![Random photo here](yes.jpeg)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=vjvelascorios)](https://git.io/streak-stats)
