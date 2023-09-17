@@ -6,6 +6,16 @@
 - In economics I really like applied economics and computers, I am specialized in data analysis using tools such as R, Python, Matlab and Julia (in development). I also really like data science, however, so far, I have no formal education in this field beyond common courses and algorithms.
 - I really like automation and visualizations, you can find out more about this on my website: [https://vjvelascorios.netlify.app/](https://vjvelascorios.netlify.app/)
 - As I mentioned before, you can contact me via email 📫.
+- Btw, sorry for the mistakes in english is not my mother tongue and to be honest until now I never really study the language as should be, so, be patient, please, I promise to improve. :)
+
+Next, the least cringy paraphrase that chatgpt did xd:
+
+- I've delved into the world of economics while nurturing interests in computers, animals, and a peaceful existence.
+- Currently, I'm venturing into the realm of GNU/Linux and working on public projects that I hope will benefit others.
+- I typically work at my own pace, but feel free to reach out via email for questions, clarifications, or proposals.
+- My passion lies in applied economics and data analysis, using tools like R, Python, Matlab, and (in development) Julia. While I have a strong interest in data science, my formal education in this field is limited to common courses and algorithms.
+- Automation and data visualization are my forte. You can learn more on my website: https://vjvelascorios.netlify.app/
+- As mentioned earlier, don't hesitate to contact me via email.
 
 ![Random photo here](yes.jpeg)
 
