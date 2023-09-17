@@ -1,5 +1,6 @@
 import os
 import random
+import re
 
 # Ruta al archivo que contiene tu documento
 documento_path = '/home/vjvelascorios/Documentos/GitHub/vjvelascorios/README.md'
@@ -11,22 +12,28 @@ imagenes_dir = '/home/vjvelascorios/Documentos/GitHub/vjvelascorios/figures/'
 with open(documento_path, 'r') as file:
     contenido = file.read()
 
-# Buscar la etiqueta '{{IMAGEN}}' en el contenido
-if '{{IMAGEN}}' in contenido:
-    # Obtener la lista de archivos de imágenes en el directorio "images/"
-    imagenes = [f for f in os.listdir(imagenes_dir) if os.path.isfile(os.path.join(imagenes_dir, f))]
+# Define el patrón de expresión regular para buscar la parte "![Random photo here](figures/tqmpatio.jpg)"
+patron = r'!\[Random photo here\]\(figures/tqmpatio.jpg\)'
 
-    # Seleccionar una imagen al azar
-    imagen_aleatoria = random.choice(imagenes)
+# Buscar el patrón en el contenido
+coincidencia = re.search(patron, contenido)
 
-    # Reemplazar '{{IMAGEN}}' con la nueva imagen en el documento
-    nuevo_contenido = contenido.replace('{{IMAGEN}}', f'![Random photo here]({imagen_aleatoria})')
+# Si se encontró el patrón
+if coincidencia:
+    # Seleccionar una imagen al azar del directorio de imágenes
+    imagen_aleatoria = random.choice(os.listdir(imagenes_dir))
+
+    # Construir la ruta completa de la nueva imagen
+    nueva_ruta_imagen = f'figures/{imagen_aleatoria}'
+
+    # Reemplazar el patrón con la nueva imagen en el documento
+    nuevo_contenido = re.sub(patron, f'![Random photo here]({nueva_ruta_imagen})', contenido)
 
     # Escribir el contenido actualizado de vuelta al documento
     with open(documento_path, 'w') as file:
         file.write(nuevo_contenido)
 
-    print(f'Se ha cambiado la imagen a: {imagen_aleatoria}')
+    print(f'Se ha cambiado la imagen a: {nueva_ruta_imagen}')
 else:
-    print('La etiqueta {{IMAGEN}} no se encontró en el documento.')
+    print('No se encontró el patrón en el documento.')
 
