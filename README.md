@@ -17,6 +17,6 @@ Next, the less cringy paraphrase that chatgpt did xd:
 - Automation and data visualization are my forte. You can learn more on my website: https://vjvelascorios.netlify.app/
 - As mentioned earlier, don't hesitate to contact me via email.
 
-![Random photo here](figures/yes.jpeg)
+![Random photo here](figures/F6rimaLXsAEzrBS.jpeg)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=vjvelascorios)](https://git.io/streak-stats)
