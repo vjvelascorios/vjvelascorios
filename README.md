@@ -19,6 +19,6 @@ Next, the less cringy paraphrase that chatgpt did xd:
 
 ![Random photo here](figures/F7MXX4jWMAAgSxh.jpeg)
 
-![Racha](https://streak-stats.demolab.com?user=vjvelascorios&theme=nord&hide_border=true&border_radius=4&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![Racha](https://streak-stats.demolab.com?user=vjvelascorios&theme=nord&hide_border=true&border_radius=4&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 ![Lenguajes más utilizados](https://github-readme-stats.vercel.app/api/top-langs/?username=vjvelascorios&theme=react&layout=donut-vertical&hide=HTML&theme=nord)
