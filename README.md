@@ -21,7 +21,7 @@ Next, the less cringy paraphrase that chatgpt did xd:
 
 
 
-[![Flujo](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vjvelascorios)
+![Flujo](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vjvelascorios)
 
 [![Racha](https://streak-stats.demolab.com?user=vjvelascorios&hide_border=true&border_radius=4&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
