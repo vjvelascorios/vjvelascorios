@@ -55,7 +55,7 @@ Hi, I’m **Víctor** — an enthusiast of applied economics, automation, and ef
 
 ---
 
-### 👁️‍🗨️ Sobre mí (Español)
+### 👁️‍🗨️ Sobre mí
 
 Hola, soy **Víctor** — alguien que encuentra paz en la economía aplicada, la automatización y el pensamiento claro.
 
