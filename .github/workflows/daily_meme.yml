@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Disparo manual
   schedule:
     # Ejecutar a las 9 AM hora de la Ciudad de México (15:00 UTC) de lunes a viernes
-    - cron: '0 15 * * 1-7'
+    - cron: '0 15 * * 
 
 jobs:
   download:
