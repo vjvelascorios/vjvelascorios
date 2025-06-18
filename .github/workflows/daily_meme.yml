@@ -1,36 +1,44 @@
-# .github/workflows/download-financiero.yml
+# .github/workflows/daily_meme.yml
 
-name:
+name: Daily Meme
 
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch: # Disparo manual
   schedule:
-    # Run at 9 AM Mexico City time (UTC-6) on weekdays
-    - cron: '0 13 * * 1-7'  # 15:00 UTC = 9:00 AM Mexico City
+    # Ejecutar a las 9 AM hora de la Ciudad de México (15:00 UTC) de lunes a viernes
+    - cron: '0 15 * * 1-7'
 
 jobs:
   download:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Add explicit permission to write to repo
+      contents: write # Permiso explícito para escribir en el repo
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup timezone
-        run: sudo timedatectl set-timezone America/Mexico_City
-      - name: Run python script
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip
-        #   pip install requests beautifulsoup4
-          python3 "../../random_image.py"
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run python script
+        run: python3 random_image.py # Asumiendo que el script está en la raíz
 
       - name: Commit and push if there are changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "daily change $(date +%Y-%m-%d)" && git push origin HEAD:main)
+          if ! git diff --staged --quiet; then
+            git commit -m "daily change $(date +%Y-%m-%d)"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
