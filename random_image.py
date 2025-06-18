@@ -3,10 +3,10 @@ import random
 import re
 
 # Ruta al archivo que contiene tu documento
-documento_path = '/home/vjvelascorios/Documentos/GitHub/vjvelascorios/README.md'
+documento_path = './README.md'
 
 # Ruta al directorio de imágenes
-imagenes_dir = '/home/vjvelascorios/Documentos/GitHub/vjvelascorios/figures/'
+imagenes_dir = './figures/'
 
 # Leer el contenido del documento
 with open(documento_path, 'r') as file:

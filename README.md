@@ -1,4 +1,4 @@
-### Hello, I am Víctor
+<!-- ### Hello, I am Víctor
 
 - I studied economics and I like computers, animals and tranquility.
 - I am currently migrating to the wonderful world of GNU/LInux and working on some public projects which I hope will be useful to someone.
@@ -21,8 +21,66 @@ Next, the less cringy paraphrase that chatgpt did xd:
 
 
 
+
+
+<!-- 🇲🇽 Español más abajo -->
+
+<h1 align="center">🧠 Víctor Velasco Ríos</h1>
+<p align="center">
+  <em>Applied economics • GNU/Linux • Automation • Quiet computing</em>
+</p>
+
+---
+
+### 👨‍💻 About Me
+
+Hi, I’m **Víctor** — an enthusiast of applied economics, automation, and efficient computing.
+
+📊 I studied economics and worked in data analysis and consulting. Now I'm focused on building reproducible and minimalist workflows using **GNU/Linux** and open-source tools.
+
+🛠️ I enjoy solving complex problems quietly and independently. I'm not very active in collaborations — I prefer deep work, clean code, and clarity.
+
+🔧 My toolkit:
+- **R**, **Python**, **Matlab**, and currently learning **Julia**
+- **DuckDB**, **SQLite**, **LaTeX**, **Markdown**, **Typst**
+- **Bash**, **AutoHotkey**, and scripting for automation
+- Keen on **quantitative analysis**, **data science**, and **research reproducibility**
+
+📬 Contact: via email (see profile)  
+🌐 Website: [vjvelascorios.netlify.app](https://vjvelascorios.netlify.app)
+
+> ⚠️ English is not my native language — thanks for your patience!  
+> I prefer meaningful contributions over superficial presence.
+
+
+---
+
+### 👁️‍🗨️ Sobre mí (Español)
+
+Hola, soy **Víctor** — alguien que encuentra paz en la economía aplicada, la automatización y el pensamiento claro.
+
+📚 Estudié economía y trabajé en análisis de datos. Ahora dedico mi tiempo a crear flujos de trabajo reproducibles en **GNU/Linux**, combinando programación, ciencia de datos y automatización.
+
+🚀 Prefiero trabajar en silencio, con profundidad y sin distracciones. No participo mucho en colaboraciones porque disfruto resolver problemas a mi propio ritmo y estilo.
+
+🧰 Herramientas que utilizo:
+- **R**, **Python**, **Matlab**, y aprendiendo **Julia**
+- **DuckDB**, **SQLite**, **LaTeX**, **Markdown**, **Typst**
+- Automatización con **Bash**, **Python**, y **AutoHotkey**
+- Enfoque en análisis cuantitativo, reproducibilidad e investigación aplicada
+
+📬 Puedes contactarme por correo (ver perfil)  
+🌐 Sitio web: [vjvelascorios.netlify.app](https://vjvelascorios.netlify.app)
+
+![Random photo here](figures/jej.jpg)
+
+---
+
+### 📈 GitHub Stats
+
+
 ![Flujo](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vjvelascorios)
 
 [![Racha](https://streak-stats.demolab.com?user=vjvelascorios&hide_border=true&border_radius=4&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
-![Lenguajes más utilizados](https://github-readme-stats.vercel.app/api/top-langs/?username=vjvelascorios&theme=nord&hide_border=true&theme=react&layout=donut-vertical&hide=HTML)
+![Lenguajes más utilizados](https://github-readme-stats.vercel.app/api/top-langs/?username=vjvelascorios&theme=nord&hide_border=true&theme=react&layout=donut-vertical&hide=HTML) -->
