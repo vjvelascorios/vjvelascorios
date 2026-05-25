@@ -72,7 +72,7 @@ Hola, soy **Víctor** — alguien que encuentra paz en la economía aplicada, la
 📬 Puedes contactarme por correo (ver perfil)  
 🌐 Sitio web: [vjvelascorios.netlify.app](https://vjvelascorios.netlify.app)
 
-![Random photo here](figures/S02E04.webp)
+![Random photo here](figures/ceuceupumas.jpeg)
 
 ---
 
